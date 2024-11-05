@@ -3,27 +3,42 @@ import products from "../assets/products.json";
 import { useFilter } from "../context/FilterProvider";
 
 const ProductListing: React.FC = () => {
-  const { selectedCategory, selectedBrand, availability, price , setSortBy, sortBy,clearFilters } = useFilter();
+  const {
+    selectedCategory,
+    selectedBrand,
+    availability,
+    price,
+    setSortBy,
+    sortBy,
+    clearFilters,
+  } = useFilter();
 
   const filteredProducts = useMemo(
     () =>
-      products.filter((product) => {
-        const inPrice = price ? product.price > price : true;
-        const inCategory = selectedCategory
-          ? product.category.toLowerCase() === selectedCategory.toLowerCase()
-          : true;
-        const inBrand = selectedBrand
-          ? product.brand.toLowerCase() === selectedBrand.toLowerCase()
-          : true;
-        const inAvailability = availability
-          ? product.availability.toLowerCase() === availability.toLowerCase()
-          : true;
-          const inSort = sortBy && sortBy !== 'All'
-          ? product.sort.toLowerCase() === sortBy.toLowerCase()
-          : true;
+      products
+        .filter((product) => {
+          const inPrice = price ? product.price > price : true;
+          const inCategory = selectedCategory
+            ? product.category.toLowerCase() === selectedCategory.toLowerCase()
+            : true;
+          const inBrand = selectedBrand
+            ? product.brand.toLowerCase() === selectedBrand.toLowerCase()
+            : true;
+          const inAvailability = availability
+            ? product.availability.toLowerCase() === availability.toLowerCase()
+            : true;
 
-        return inBrand && inCategory && inAvailability && inPrice && inSort;
-      }),
+          return inBrand && inCategory && inAvailability && inPrice;
+        })
+        .sort((a) => {
+            // Adjust sorting based on `sortBy` value
+            if (sortBy === "Most Popular") {
+              return a.sort === "Most Popular" ? -1 : 1;
+            } else if (sortBy === "Less Popular") {
+              return a.sort === "Less Popular" ? -1 : 1;
+            }
+            return 0;
+          }),
     [availability, price, selectedBrand, selectedCategory, sortBy]
   );
 
@@ -44,8 +59,8 @@ const ProductListing: React.FC = () => {
             className="border-2 bg-white outline-none border-gray-300 rounded-md px-5 py-3 text-left"
           >
             <option value="All">All</option>
-            <option value="Most popular">Most popular</option>
-            <option value="Less popular">Less popular</option>
+            <option value="Most Popular">Most popular</option>
+            <option value="Less Popular">Less popular</option>
           </select>
         </div>
       </div>
@@ -83,7 +98,14 @@ const ProductListing: React.FC = () => {
               filters.
             </p>
             <p className="text-xl text-gray-700">
-              Please <span className="cursor-pointer text-blue-500 hover:underline" onClick={clearFilters}>clear all filters</span> or adjust them.
+              Please{" "}
+              <span
+                className="cursor-pointer text-blue-500 hover:underline"
+                onClick={clearFilters}
+              >
+                clear all filters
+              </span>{" "}
+              or adjust them.
             </p>
           </div>
         )}

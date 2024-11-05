@@ -14,7 +14,6 @@ const FilterPanel: React.FC = () => {
     setPrice,
     clearFilters
   } = useFilter();
-  console.log(price)
   const [currPrice, setCurrPrice] = useState(price || 0);
   const debouncedPrice = useDebounce<number>(currPrice, 300); // Adjust delay as needed
 
@@ -29,7 +28,7 @@ const FilterPanel: React.FC = () => {
     setPrice(debouncedPrice)
   }, [debouncedPrice]);
 
-  
+
   React.useEffect(() => {
     setCurrPrice(price || 0)
   }, [price]);
