@@ -1,0 +1,304 @@
+[
+    {
+      "id": 1,
+      "image":"https://via.placeholder.com/150",
+      "brand": "Nike",
+      "price": 4500,
+      "name": "Nike Air Max",
+      "availability": "In Stock",
+      "category": "Shoes",
+      "sort": "Most Popular"
+    },
+    {
+      "id": 2,
+      "image":"https://via.placeholder.com/150",
+      "brand": "Adidas",
+      "price": 3500,
+      "name": "Adidas Ultraboost",
+      "availability": "In Stock",
+      "category": "Shoes",
+      "sort": "Most Popular"
+    },
+    {
+      "id": 3,
+      "image":"https://via.placeholder.com/150",
+      "brand": "Puma",
+      "price": 2500,
+      "name": "Puma RS-X",
+      "availability": "Out of Stock",
+      "category": "Shoes",
+      "sort": "Less Popular"
+    },
+    {
+      "id": 4,
+      "image":"https://via.placeholder.com/150",
+      "brand": "Apple",
+      "price": 7500,
+      "name": "Apple AirPods Pro",
+      "availability": "In Stock",
+      "category": "Electronics",
+      "sort": "Most Popular"
+    },
+    {
+      "id": 5,
+      "image":"https://via.placeholder.com/150",
+      "brand": "Samsung",
+      "price": 6000,
+      "name": "Samsung Galaxy Buds",
+      "availability": "In Stock",
+      "category": "Electronics",
+      "sort": "Less Popular"
+    },
+    {
+      "id": 6,
+      "image":"https://via.placeholder.com/150",
+      "brand": "Ikea",
+      "price": 3000,
+      "name": "Ikea Chair",
+      "availability": "In Stock",
+      "category": "Furniture",
+      "sort": "Most Popular"
+    },
+    {
+      "id": 7,
+      "image":"https://via.placeholder.com/150",
+      "brand": "Nike",
+      "price": 4500,
+      "name": "Nike Sneakers",
+      "availability": "Out of Stock",
+      "category": "Shoes",
+      "sort": "Most Popular"
+    },
+    {
+      "id": 8,
+      "image":"https://via.placeholder.com/150",
+      "brand": "Adidas",
+      "price": 4200,
+      "name": "Adidas Track Pants",
+      "availability": "In Stock",
+      "category": "Clothing",
+      "sort": "Less Popular"
+    },
+    {
+      "id": 9,
+      "image":"https://via.placeholder.com/150",
+      "brand": "Puma",
+      "price": 2000,
+      "name": "Puma T-Shirt",
+      "availability": "In Stock",
+      "category": "Clothing",
+      "sort": "Most Popular"
+    },
+    {
+      "id": 10,
+      "image": "https://via.placeholder.com/150",
+      "brand": "Samsung",
+      "price": 3500,
+      "name": "Samsung Bluetooth Speaker",
+      "availability": "In Stock",
+      "category": "Speakers",
+      "sort": "Most Popular"
+    },
+    {
+      "id": 11,
+      "image": "https://via.placeholder.com/150",
+      "brand": "Apple",
+      "price": 7500,
+      "name": "Apple MacBook Air",
+      "availability": "Out of Stock",
+      "category": "Electronics",
+      "sort": "Most Popular"
+    },
+    {
+      "id": 12,
+      "image": "https://via.placeholder.com/150",
+      "brand": "Nike",
+      "price": 4500,
+      "name": "Nike Air Zoom",
+      "availability": "In Stock",
+      "category": "Shoes",
+      "sort": "Less Popular"
+    },
+    {
+      "id": 13,
+      "image": "https://via.placeholder.com/150",
+      "brand": "Adidas",
+      "price": 3300,
+      "name": "Adidas Hoodie",
+      "availability": "In Stock",
+      "category": "Clothing",
+      "sort": "Most Popular"
+    },
+    {
+      "id": 14,
+      "image": "https://via.placeholder.com/150",
+      "brand": "Puma",
+      "price": 1200,
+      "name": "Puma Cap",
+      "availability": "In Stock",
+      "category": "Clothing",
+      "sort": "Less Popular"
+    },
+    {
+      "id": 15,
+      "image": "https://via.placeholder.com/150",
+      "brand": "Ikea",
+      "price": 4000,
+      "name": "Ikea Table",
+      "availability": "In Stock",
+      "category": "Furniture",
+      "sort": "Most Popular"
+    },
+    {
+      "id": 16,
+      "image": "https://via.placeholder.com/150",
+      "brand": "Samsung",
+      "price": 7000,
+      "name": "Samsung Smart TV",
+      "availability": "In Stock",
+      "category": "Electronics",
+      "sort": "Most Popular"
+    },
+    {
+      "id": 17,
+      "image": "https://via.placeholder.com/150",
+      "brand": "Apple",
+      "price": 6800,
+      "name": "Apple Watch",
+      "availability": "In Stock",
+      "category": "Electronics",
+      "sort": "Less Popular"
+    },
+    {
+      "id": 18,
+      "image": "https://via.placeholder.com/150",
+      "brand": "Nike",
+      "price": 2300,
+      "name": "Nike Socks",
+      "availability": "Out of Stock",
+      "category": "Clothing",
+      "sort": "Most Popular"
+    },
+    {
+      "id": 19,
+      "image": "https://via.placeholder.com/150",
+      "brand": "Puma",
+      "price": 3000,
+      "name": "Puma Sneakers",
+      "availability": "In Stock",
+      "category": "Shoes",
+      "sort": "Most Popular"
+    },
+    {
+      "id": 20,
+      "image": "https://via.placeholder.com/150",
+      "brand": "Adidas",
+      "price": 1500,
+      "name": "Adidas Water Bottle",
+      "availability": "In Stock",
+      "category": "Accessories",
+      "sort": "Less Popular"
+    },
+    {
+      "id": 21,
+      "image": "https://via.placeholder.com/150",
+      "brand": "Ikea",
+      "price": 5000,
+      "name": "Ikea Wardrobe",
+      "availability": "In Stock",
+      "category": "Furniture",
+      "sort": "Most Popular"
+    },
+    {
+      "id": 22,
+      "image": "https://via.placeholder.com/150",
+      "brand": "Samsung",
+      "price": 7500,
+      "name": "Samsung Galaxy S21",
+      "availability": "In Stock",
+      "category": "Smartphones",
+      "sort": "Most Popular"
+    },
+    {
+      "id": 23,
+      "image": "https://via.placeholder.com/150",
+      "brand": "Apple",
+      "price": 6400,
+      "name": "Apple iPhone 12",
+      "availability": "In Stock",
+      "category": "Smartphones",
+      "sort": "Less Popular"
+    },
+    {
+      "id": 24,
+      "image": "https://via.placeholder.com/150",
+      "brand": "Puma",
+      "price": 3600,
+      "name": "Puma Running Shoes",
+      "availability": "In Stock",
+      "category": "Shoes",
+      "sort": "Most Popular"
+    },
+    {
+      "id": 25,
+      "image": "https://via.placeholder.com/150",
+      "brand": "Adidas",
+      "price": 2800,
+      "name": "Adidas Slippers",
+      "availability": "Out of Stock",
+      "category": "Shoes",
+      "sort": "Less Popular"
+    },
+    {
+      "id": 26,
+      "image": "https://via.placeholder.com/150",
+      "brand": "Nike",
+      "price": 7200,
+      "name": "Nike Running Watch",
+      "availability": "In Stock",
+      "category": "Electronics",
+      "sort": "Most Popular"
+    },
+    {
+      "id": 27,
+      "image": "https://via.placeholder.com/150",
+      "brand": "Ikea",
+      "price": 4000,
+      "name": "Ikea Sofa",
+      "availability": "In Stock",
+      "category": "Furniture",
+      "sort": "Less Popular"
+    },
+    {
+      "id": 28,
+      "image": "https://via.placeholder.com/150",
+      "brand": "Apple",
+      "price": 12000,
+      "name": "Apple iMac",
+      "availability": "In Stock",
+      "category": "Computers",
+      "sort": "Most Popular"
+    },
+    {
+      "id": 29,
+      "image": "https://via.placeholder.com/150",
+      "brand": "Samsung",
+      "price": 5000,
+      "name": "Samsung Tablet",
+      "availability": "In Stock",
+      "category": "Electronics",
+      "sort": "Less Popular"
+    },
+    {
+      "id": 30,
+      "image": "https://via.placeholder.com/150",
+      "brand": "Puma",
+      "price": 2500,
+      "name": "Puma Backpack",
+      "availability": "In Stock",
+      "category": "Accessories",
+      "sort": "Most Popular"
+    }
+  ]
+  
+  
